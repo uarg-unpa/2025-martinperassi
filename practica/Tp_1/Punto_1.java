@@ -1,3 +1,4 @@
+package Tp_1;
 /*1. Contestar las siguientes consignas referentes a las operaciones de casting. 
  * Dadas las siguientes declaraciones de variables: 
  * int A, B, R1; 
