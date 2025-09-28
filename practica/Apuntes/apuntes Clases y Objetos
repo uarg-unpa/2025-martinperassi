@@ -137,3 +137,11 @@ Entonces, la manera de trabajo sera la siguiente
 - creamos otro archivo donde tendremos las clases a utilizar.
 - todo debe estar en el mismo paquete o carpeta.
 }
+
+CON RESPECTO AL CONSTRUCTOR Y LOS PARAMETROS QUE TIENE
+En resumen:
+
+Se usa this para diferenciar el atributo de la clase del parámetro cuando tienen el mismo nombre.
+Si los nombres son distintos, no necesitas this.
+Si los nombres son iguales, debes usar this.
+
