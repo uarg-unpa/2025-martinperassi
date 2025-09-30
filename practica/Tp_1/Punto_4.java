@@ -9,40 +9,24 @@ public class Punto_4 {
 
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
-        int num1, num2, num3, num_mayor;
+        int contador = 0;
+        int num;
+        int numMayor = Integer.MIN_VALUE; // Asegura que cualquier número ingresado será mayor
 
-        System.out.println("ingrese un numero:");
-        if(scanner.hasNextInt()){
-            num1 = scanner.nextInt();
-        }else{
-            System.out.println("ingrese un numero entero");
-            return;
-        }
-        System.out.println("ingrese un numero:");
+        while(contador < 3){
+            System.out.println("ingrese un numero");
             if(scanner.hasNextInt()){
-                num2 = scanner.nextInt();
-        }else{
-            System.out.println("ingrese un numero entero");
-            return;
+                num = scanner.nextInt();
+                    if(num > numMayor){
+                            numMayor = num; 
+                    }
+                    contador++;
+            }else{
+                System.out.println("ingresa un valor valido");
+                scanner.next();
+            }
         }
-        System.out.println("ingrese un numero:");
-            if(scanner.hasNextInt()){
-                num3 = scanner.nextInt();
-        }else{
-            System.out.println("ingrese un numero entero");
-            return;
-        }
-
-        if(num1 >= num2 && num1 >= num3){
-            num_mayor = num1;
-        }
-        else if(num2 >= num1 && num2 >= num3){
-            num_mayor = num2;
-        }else{
-            num_mayor = num3;
-        }
-
+        System.out.println("el numero mayor es: " + numMayor);
         scanner.close();
-        System.out.println("el numero mayor es: " + num_mayor);
     }
 }
