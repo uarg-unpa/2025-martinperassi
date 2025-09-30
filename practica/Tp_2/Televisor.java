@@ -65,7 +65,7 @@ public class Televisor {
         //cambiamos los datos del televisor 1 para comprobar que funcionan bien los metodos set
         televisor1.setmarca("TCL");
         televisor1.setpulgadas(29);
-        televisor1.setcolor("gris");
+        televisor1.setcolor("rosa");
         
         //volvemos a mostrar los datos con el metodo mostrarDatos pero ahora eremos que nuestro objeto tiene los atributos cambiados.
         televisor1.mostrarDatos(); 
