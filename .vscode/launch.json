@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Borrador_clasePerro",
+            "request": "launch",
+            "mainClass": "Apuntes.Borrador_clasePerro",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Borrador_funciones",
+            "request": "launch",
+            "mainClass": "Apuntes.Borrador_funciones",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "EjemploScanner01",
+            "request": "launch",
+            "mainClass": "EjemploScanner01",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "EjemploScanner02",
+            "request": "launch",
+            "mainClass": "EjemploScanner02",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_1",
+            "request": "launch",
+            "mainClass": "Tp_1.Punto_1",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_2",
+            "request": "launch",
+            "mainClass": "Tp_1.Punto_2",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_3",
+            "request": "launch",
+            "mainClass": "Tp_1.Punto_3",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_4",
+            "request": "launch",
+            "mainClass": "Tp_1.Punto_4",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_5",
+            "request": "launch",
+            "mainClass": "Tp_1.Punto_5",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_6",
+            "request": "launch",
+            "mainClass": "Tp_1.Punto_6",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Hora",
+            "request": "launch",
+            "mainClass": "Tp_2.Hora",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Punto_2(1)",
+            "request": "launch",
+            "mainClass": "Tp_2.Punto_2",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
+            "name": "Televisor",
+            "request": "launch",
+            "mainClass": "Tp_2.Televisor",
+            "projectName": "2025-martinperassi_b16e9666"
+        }
+    ]
+}
