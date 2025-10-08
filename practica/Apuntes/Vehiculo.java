@@ -83,18 +83,10 @@ public class Vehiculo {
 
         //PUNTO4.
         System.out.println();
-        System.out.println(auto.getVelocidadMaxima());
-        System.out.println(moto.getVelocidadMaxima());
-        System.out.println("Velocidad del auto: " + auto.getVelocidadMaxima());
-        System.out.println("Velocidad de la moto: " + moto.getVelocidadMaxima());
+        System.out.println("velocidad maxima del auto: " + auto.getVelocidadMaxima());
+        System.out.println("velocidad maxima de la moto: " + moto.getVelocidadMaxima());
 
         System.out.print(velocidadMaxima(auto.velocidadMaxima, moto.velocidadMaxima));
-        // Forma recomendada: guardar el valor devuelto en una variable y luego imprimirla.
-        int laMasRapida = velocidadMaxima(auto.getVelocidadMaxima(), moto.getVelocidadMaxima());
-        System.out.println("La más rápida entre las dos es: " + laMasRapida);
-
-
-
 
     }
 
