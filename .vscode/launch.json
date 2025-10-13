@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainElector",
+            "request": "launch",
+            "mainClass": "Apuntes.MainElector",
+            "projectName": "2025-martinperassi_b16e9666"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

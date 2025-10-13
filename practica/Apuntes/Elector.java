@@ -1,4 +1,5 @@
 package Apuntes;
+import java.util.Scanner;
 
 public class Elector {
     //ATRIBUTOS
@@ -63,8 +64,21 @@ public class Elector {
     //toString()
     @Override
     public String toString(){
-        return "Datos Personales\n" + "Nombre: " + nombre + "\nApellido: " + apellido + "\nMatricula: " + matricula + "\nClase: " + clase + "\nDomicilio: " + domicilio;
+        return "Datos Personales\n" + "Nombre: " + nombre + "\nApellido: " + apellido + "\nDomicilio: " + domicilio + "\nMatricula: " + matricula + "\nClase: " + clase;
     }
 
-    
+    //Preguntar Datos
+    Scanner scanner = new Scanner(System.in);
+    public void pedirDatos(){
+        System.out.print("ingresa un nombre: ");
+        nombre = scanner.nextLine();
+        System.out.print("ingresa un apellido: ");
+        apellido = scanner.nextLine();
+        System.out.print("ingresa un domicilio: ");
+        domicilio = scanner.nextLine();
+        System.out.print("ingresa una matricula: ");
+        matricula = scanner.nextInt();
+        System.out.print("ingresa una clase: ");
+        clase = scanner.nextInt();
+    }
 }
