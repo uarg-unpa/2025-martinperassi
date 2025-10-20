@@ -38,9 +38,4 @@ public class Punto1Pila {
         return cima == -1;
     }
 
-
-     int x = 3;
-    private int y = 5;
-    private int z = 2;
-
 }
