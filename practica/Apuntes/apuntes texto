@@ -1,0 +1,62 @@
+que significa que mi funcion tenga static public?
+
+En Java, `static public` (o `public static`) antes de una función significa:
+
+- `static`: La función pertenece a la clase, no a un objeto. Puedes llamarla sin crear una instancia de la clase.
+- `public`: La función es accesible desde cualquier otra clase.
+
+Ejemplo:
+```java
+public static void miFuncion() { ... }
+```
+
+Puedes llamarla así:  
+`NombreDeLaClase.miFuncion();`
+
+En resumen:  
+- `static` = método de clase  
+- `public` = acceso libre desde fuera de la clase
+
+y que significa el void?
+
+En Java, `void` significa que la función no devuelve ningún valor.
+
+Por ejemplo:
+```java
+public void saludar() {
+    System.out.println("Hola");
+}
+```
+Aquí, `saludar()` realiza una acción pero no retorna nada.  
+Si una función devuelve un valor, se usa el tipo correspondiente (por ejemplo, `int`, `double`, `String`).  
+Si no devuelve nada, se usa `void`.
+
+dame un ejemplo con void y sin void
+
+Claro, aquí tienes ambos ejemplos en Java:
+
+Ejemplo con `void` (no retorna valor):
+```java
+public void saludar() {
+    System.out.println("Hola");
+}
+```
+Uso:
+```java
+saludar(); // Imprime "Hola"
+```
+
+Ejemplo sin `void` (retorna valor, por ejemplo un entero):
+```java
+public int sumar(int a, int b) {
+    return a + b;
+}
+```
+Uso:
+```java
+int resultado = sumar(2, 3); // resultado = 5
+```
+
+Resumen:
+- `void`: no retorna nada.
+- Otro tipo (`int`, `double`, `String`, etc.): retorna un valor de ese tipo.
