@@ -14,7 +14,7 @@ public class Punto5Main {
             System.out.println(x);
         }
 
-        // -> mostrar el elemento cima.
+        // -> mostrar el elemento cima.(dira que esta vacia por que anteriormente sacamos todos los elementos).
         System.out.print("elemento cima:");
         pila.elemento_cima();
 

@@ -40,20 +40,8 @@ public class Punto5Pila {
     }
 
 
-    public void elemento_cima(){
-        if(!estaVacia()){
-            System.out.println(numeros[cima]);
-        }else{
-            System.out.println("La pila esta vacia!!!");
-        }
+    public int elemento_cima(){
+        return numeros[cima];
     }
-
-
-
-
-
-
-
-
 
 }
