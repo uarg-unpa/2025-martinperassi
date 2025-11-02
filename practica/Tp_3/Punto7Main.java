@@ -33,12 +33,5 @@ public class Punto7Main {
             pila_copia.meter(aux);
         }
 
-
-
-        
-
-
-
-
     }
 }
