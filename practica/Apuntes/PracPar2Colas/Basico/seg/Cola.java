@@ -1,6 +1,5 @@
 package PracPar2Colas.Basico.seg;
 
-import tp3.ejer7.Pila;
 
 public class Cola {
    private final int maxcola=5;
