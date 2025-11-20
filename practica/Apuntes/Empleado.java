@@ -17,7 +17,7 @@
 // --> Comparar 2 de ellos usando el metodo ganaMasQue.
 // --> Mostrar por consola un mensaje indicando que empleado gana mas.
 
-package Apuntes;
+
 
 public class Empleado{
 

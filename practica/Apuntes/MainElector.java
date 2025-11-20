@@ -1,4 +1,4 @@
-package Apuntes;
+
 public class MainElector {
     public static void main(String[] args) {
         Elector p1 = new Elector("carlos", "diaz", 12, 23, "antonio rodriguez 1297");

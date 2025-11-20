@@ -1,4 +1,4 @@
-package Apuntes;
+
 
 public class MainAuto {
     public static void main(String[] args) {

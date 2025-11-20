@@ -1,4 +1,4 @@
-package Apuntes;
+
 
 public class MainDeportista {
     public static void main(String[] args) {

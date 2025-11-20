@@ -1,4 +1,4 @@
-package Apuntes;
+
 import java.util.Scanner;
 
 public class Elector {
