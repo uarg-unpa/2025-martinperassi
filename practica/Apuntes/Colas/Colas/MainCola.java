@@ -1,7 +1,5 @@
 package Colas.Colas;
 
-import PracPar2Colas.Basico.Primer.Cola;
-
 public class MainCola {
     public static void main(String[] args) {
         // ColaInt cola = new ColaInt();

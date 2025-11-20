@@ -1,6 +1,5 @@
 package Pilas.ParcialPilas;
 
-
 // CONSIGNA
 // 1.Crear un metodo dentro de la clase pila de enteros, que reciba otra pila de enteros p2 tambien, calcule y retorne verdadero si la pila tiene mas elementos pares que la pila p2
 // que se envia por parametro o falso si la p2 tiene mas elementos pares. Las pilas deben quedar como estaban originalmente;

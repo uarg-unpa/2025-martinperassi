@@ -1,6 +1,5 @@
 package PracPar2Colas.Basico.Primer;
 
-import Colas.Colas.ColaInt;
 
 public class Cola {
     private final int maxcola=5;
