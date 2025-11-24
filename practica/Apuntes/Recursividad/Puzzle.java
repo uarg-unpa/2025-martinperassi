@@ -1,4 +1,4 @@
-package Apuntes.Recursividad;
+package Recursividad;
 
 public class Puzzle {
     

@@ -1,4 +1,4 @@
-package Apuntes.Recursividad;
+package Recursividad;
 
 public class Factorial {
     public int factorial(int x){

@@ -1,3 +1,5 @@
+package Apuntes;
+
 public class Auto {
 
     //ATRIBUTOS

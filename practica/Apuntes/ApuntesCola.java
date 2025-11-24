@@ -1,4 +1,3 @@
-package Apuntes;
 
 public class ApuntesCola {
     //ATRIBUTOS
