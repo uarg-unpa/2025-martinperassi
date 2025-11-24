@@ -1,4 +1,4 @@
-package Apuntes;
+
 
 public class Borrador_clasePerro {
     //ATRIBUTOS
