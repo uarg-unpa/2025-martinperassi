@@ -1,3 +1,4 @@
+package Colas;
 
 public class ApuntesCola {
     //ATRIBUTOS

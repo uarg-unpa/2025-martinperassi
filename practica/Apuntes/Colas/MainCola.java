@@ -1,4 +1,5 @@
-package Apuntes;
+package Colas;
+
 
 public class MainCola {
     public static void main(String[] args) {

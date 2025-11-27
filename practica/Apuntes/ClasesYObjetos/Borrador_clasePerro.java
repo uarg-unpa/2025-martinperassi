@@ -1,4 +1,4 @@
-
+package ClasesYObjetos;
 
 public class Borrador_clasePerro {
     //ATRIBUTOS

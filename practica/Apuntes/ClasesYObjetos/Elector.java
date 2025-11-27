@@ -1,4 +1,4 @@
-
+package ClasesYObjetos;
 import java.util.Scanner;
 
 public class Elector {

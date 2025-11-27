@@ -18,7 +18,7 @@
 // --> Mostrar por consola un mensaje indicando que empleado gana mas.
 
 
-
+package ClasesYObjetos;
 public class Empleado{
 
     //ATRIBUTOS

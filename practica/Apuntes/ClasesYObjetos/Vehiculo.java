@@ -1,5 +1,4 @@
-
-import java.util.Scanner;
+package ClasesYObjetos;
 
 public class Vehiculo {
     //ATRIBUTOS

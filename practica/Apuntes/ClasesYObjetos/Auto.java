@@ -1,4 +1,4 @@
-package Apuntes;
+package ClasesYObjetos;
 
 public class Auto {
 
