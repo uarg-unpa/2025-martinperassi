@@ -1,0 +1,29 @@
+Resumen
+System.out.println()
+
+Propósito: Mostrar información en la consola. Es una herramienta de salida para el usuario.
+
+¿Qué hace?: Imprime el texto o el valor que le pases y luego mueve el cursor a la siguiente línea.
+
+¿Devuelve algo?: No. Su única función es "hablar" con el exterior (la pantalla). El programa no puede usar lo que se imprimió para hacer otros cálculos.
+Analogía: Imagina que System.out.println() es como un altavoz. Anuncia un mensaje para que todos en la habitación (el usuario) lo escuchen, pero no le entrega nada directamente a la persona que le pidió que hablara.
+
+return
+
+Propósito: Finalizar la ejecución de un método y devolver un valor al lugar del código que lo llamó.
+Es una herramienta de comunicación interna del programa.
+
+¿Qué hace?: Entrega un resultado (un int, un String, un objeto, etc.) para que pueda ser guardado en una variable o usado en otra operación.
+
+¿Devuelve algo?: Sí, es su única función.
+El tipo de dato que devuelve debe coincidir con el que se declara en la firma del método (ej: public **int** miMetodo()). 
+Si un método es void, no puede usar return para devolver un valor.
+
+Analogía: return es como un mensajero. 
+Cuando le pides algo, va, lo busca y te lo entrega en la mano para que puedas usarlo. 
+Una vez que te lo entrega, su trabajo en ese método termina.
+
+
+
+
+
