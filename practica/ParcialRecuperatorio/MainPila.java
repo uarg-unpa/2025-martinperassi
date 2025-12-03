@@ -9,6 +9,7 @@ public class MainPila {
         pila.meter(4);
         pila.meter(5);
         pila.meter(5);
+        pila.meter(1);
 
         pila.eliminarDuplicados();
 
