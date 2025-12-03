@@ -15,8 +15,7 @@ public class Main {
         PilaLibros mostrar = new PilaLibros();
         PilaLibros auxCopy = pila.filtrarPorAutor("NO EXISTE"); // solo para copiar
         // Forma correcta de imprimir sin romper:
-        mostrar = pila.filtrarPorAutor(""); // truco para copiar vaciando nada
-        // pero mejor te doy un método imprimir luego si querés
+        mostrar = pila.filtrarPorAutor("");
 
         // FILTRAR
         System.out.println("\nLibros de Tolkien:");

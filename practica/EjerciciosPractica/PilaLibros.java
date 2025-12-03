@@ -35,9 +35,8 @@ public class PilaLibros {
         return null;
     }
 
-    // ----------------------------------------
     // MÉTODO QUE PIDE EL EJERCICIO
-    // ----------------------------------------
+
     public PilaLibros filtrarPorAutor(String autorBuscado) {
 
         PilaLibros aux = new PilaLibros();      // para extraer sin perder orden
