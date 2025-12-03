@@ -45,22 +45,26 @@ public class Pila {
     //-> metodo para eliminar duplicados consecutivos.
     public void eliminarDuplicados(){
         Pila pilaAux = new Pila();
+        Pila pilaRepetidos = new Pila();
 
-        // 1. Pasamos elementos de la pila original a pilaAux.
-        // eliminadmos duplicaadoos en caso de encontrar.
         while(!this.estaVacia()){
-            int elementoActual = this.sacar();
-            
-            if(pilaAux.estaVacia() || elementoActual != pilaAux.verCima()){
-                pilaAux.meter(elementoActual);
-            } else {
-                pilaAux.sacar();
+
+            int aux1 = this.sacar();
+            int aux2 = this.sacar();
+
+            pilaAux.meter(aux1);
+            pilaAux.meter(aux2);
+
+            if(aux1 == aux2){
+                pilaRepetidos.meter(pilaAux.sacar());
+                pilaRepetidos.meter(pilaAux.sacar());
             }
         }
 
-        // 2. Devolvemos los elementos de pilaAux a la pila original.
+        //reconstruimos la pila original sin los repetidos consecutivos
         while(!pilaAux.estaVacia()){
-            this.meter(pilaAux.sacar());
+            int aux = pilaAux.sacar();
+            this.meter(aux);
         }
     }
 
