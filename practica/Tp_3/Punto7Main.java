@@ -30,6 +30,7 @@ public class Punto7Main {
             String aux;
             aux = pila_aux.sacar();
             pila.meter(aux);
+            System.out.println(aux);
             pila_copia.meter(aux);
         }
 

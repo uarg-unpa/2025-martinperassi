@@ -24,7 +24,7 @@ public class ApuntesCola {
     
     public boolean estaLlena(){
         return(ultimo == maxcola - 1);
-    } //como las posiciones van de 0 a 4, cuando ultimo = -4 la cola estara llena.
+    } //como las posiciones van de 0 a 4, cuando ultimo = 4 la cola estara llena.
 
     //meter elemento
     public int meter(int elem){
@@ -38,7 +38,14 @@ public class ApuntesCola {
         }
     }
 
-    //
+    public int borrar() {
+      int aux = elementos[0];
+      for (int i=0; i<ultimo; i++) 
+         elementos[i] = elementos[i+1];
+      ultimo--;   
+      return aux;
+   }
+
 
 
 
