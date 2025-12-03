@@ -112,4 +112,15 @@ public class ColaTradicional {
         //finalmente mretornamos si las colas son iguales tanto en tamaño como en elementos
         return iguales;
     }
+
+    public void rotar(int n){
+        if(n <= 0){
+            System.out.println("error, n debe ser un numero mayor que 0");
+        }else{
+            for(int i = 0; i < n; i++){
+            this.meter(this.sacar());
+        }
+
+        }
+    }
 }

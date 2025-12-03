@@ -95,5 +95,19 @@ public class Main {
             int aux = obj1.sacar();
             System.out.println(aux);
         }
+
+        ColaTradicional COLA = new ColaTradicional();
+        COLA.meter(10);
+        COLA.meter(20);
+        COLA.meter(30);
+        COLA.meter(40);
+        COLA.meter(50);
+
+        COLA.rotar(1);
+
+        while(!COLA.estaVacia()){
+            System.out.println(COLA.sacar());
+        }
+
     }
 }
