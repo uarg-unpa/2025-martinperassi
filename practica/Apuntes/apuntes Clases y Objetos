@@ -1,0 +1,147 @@
+Clase: plantilla para crear objetos.
+- Definen atributos y metodos de objetos del mismo tipo.
+- Una clase es la descripcion de un conjunto de objetos.
+
+Las clases definen todos los atributos y metodos que un objeto tendra.
+
+Objetos: Instancia de una clase, antes veiamos variables y ahora vemos objetos. Los objetos tambien pueden ser vistos como variables solo que contienen mas informacion.
+
+MANERA DE VER UNA CLASE:
+PUNTO --> Nombre de la Clase
+
+CoordenadaX --> Atributos(datos)
+CoordenadaY --> Atributos(datos)
+
+setX --> Metodos(mensajes)
+setY --> Metodos(mensajes)
+
+GetX --> Metodos(mensajes)
+GetY --> Metodos(mensajes)
+
+set y get: Metodos que no pueden faltar nunca en una clase, sirven para poder ver y modificar los atributos de una clase.
+
+Ejemplo en Java:
+
+public class Punto{
+    private int coordenadasX;
+    private int coordenadasY;
+
+    public Punto(){
+        coordenadasX = 0;
+        coordenadasY = 0;
+    }
+
+    public void setX(int x){
+        coordenadasX = x;
+    }
+
+    public void setY(int y){
+        coordenadasY = y;
+    }
+
+    public int getX(){
+        return coordenadasX;
+    }
+
+    public int getY(){
+        return coordenadasY;
+    }
+}
+
+CONSTRUCTOR:
+public Punto(){
+    coordenadasX = 0;
+    coordenadasY = 0;
+}
+
+- Metodo que se llama igual que la clase, cuando uno crea un objeto este mismo es creado con los valores que se les da en el constructor, osea, en este caso si creamos un objeto en otra plantilla de la clase Punto, este seria creado con los valores "coordenadasX" = 0 y "coordenadasY" = 0.
+
+- Luego del Constructor vienen los set y get, que son funciones.
+
+- Cuando un metodo no devuelve nada(no tienen return), se le coloca void a la hora de crearlo.
+
+Cada Objeto tiene un estado y uno o varios comportamientos:
+- Estado: atributos.
+- Comportamientos: metodos.
+
+EJEMPLOS: 
+
+NUMERO:
+- ESTADO:(valor actual)
+- COMPORTAMIENTOS:(sumar,restar,asignar)
+
+VEHICULO:
+- ESTADO:(color,precui,velocidad)
+- COMPORTAMIENTOS:(acelerar,frenar,abrir)
+
+CONJUNTO:
+- ESTADO:(elementos)
+- COMPORTAMIENTOS:(agregar, quitar, ver, vaciar)
+
+En un programa un objeto es una variable:
+
+CLASE -> OBJETO1
+      -> OBJETO2
+      -> OBJETO3
+
+CLASE PERSONA(Nombre,Edad)-> Persona1 Nombre:Pedro Edad:25
+                          -> Persona2 Nombre:Jose Edad:38
+
+- ATRIBUTOS: caracteristicas o propiedades de un objeto. Un atributo consta de dos partes: su nombre y su valor.
+
+ATRIBUTOS EN JAVA: En el codigo los atributos se definen como variables.Son datos miembros de una clase.
+IMPORTANTE: SIEMPRE SERAN PRIVADOS.
+
+public class Domicilio{
+    //declaracion de Atributos
+    private String calle;
+    private int numero;
+    private String sector;
+}
+
+- MODIFICADORES DE ACCESO:Restringen el acceso a los atributos de una clase:
+- public:
+- private:
+
+¿COMO DEFINIMOS UNA CLASE EN JAVA?
+public class Hora{
+    //ATRIBUTOS
+    private int hora,minutos,segundos;
+
+    //CONSTRUCTOR
+    public Hora(){
+        hora = 0;
+        minutos = 0;
+        segundos = 0;
+    }
+
+    //METODOS
+    public void setearHora(){
+        //codigo
+    }
+
+    public void setearMinutos(){
+        //codigo
+    }
+
+    public void imprimirHora(){
+        //codigo
+    }
+
+    public void formato12hs(){
+        //codigo
+    }
+
+Entonces, la manera de trabajo sera la siguiente
+- creamos el archivo principal
+- creamos otro archivo donde tendremos las clases a utilizar.
+- todo debe estar en el mismo paquete o carpeta.
+}
+
+CON RESPECTO AL CONSTRUCTOR Y LOS PARAMETROS QUE TIENE
+En resumen:
+
+Se usa this para diferenciar el atributo de la clase del parámetro cuando tienen el mismo nombre.
+Si los nombres son distintos, no necesitas this.
+Si los nombres son iguales, debes usar this.
+
